@@ -1,0 +1,8 @@
+<div class="backdrop">
+  <div class="alert-box" appDynamicClass [backgroundClass]="backgroundColor">
+    <p>{{ message }}</p>
+    <div class="alert-box-actions">
+      <button class="btn btn-primary" (click)="onClose()">Close</button>
+    </div>
+  </div>
+</div>
